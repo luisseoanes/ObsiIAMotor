@@ -1,0 +1,16 @@
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/CMakeFiles/obsia.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/CMakeFiles/test_runner.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/CMakeFiles/INSTALL.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/CMakeFiles/INSTALL.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/CMakeFiles/INSTALL.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/CMakeFiles/ALL_BUILD.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/CMakeFiles/ggml-base.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/CMakeFiles/ggml.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/CMakeFiles/ggml-cpu.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/CMakeFiles/INSTALL.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/ggml-cpu/CMakeFiles/INSTALL.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/src/CMakeFiles/llama.dir
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/src/CMakeFiles/INSTALL.dir

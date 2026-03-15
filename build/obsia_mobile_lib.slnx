@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Solution>
+	<Configurations>
+		<BuildType Name="Debug"/>
+		<BuildType Name="Release"/>
+		<BuildType Name="MinSizeRel"/>
+		<BuildType Name="RelWithDebInfo"/>
+		<Platform Name="x64"/>
+	</Configurations>
+	<Project Path="ALL_BUILD.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="f943b679-2552-3ff8-992d-b224ab8d981b" DefaultStartup="true">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-base.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-cpu.vcxproj"/>
+		<BuildDependency Project="llama_build/src/llama.vcxproj"/>
+		<BuildDependency Project="obsia.vcxproj"/>
+		<BuildDependency Project="test_runner.vcxproj"/>
+	</Project>
+	<Project Path="INSTALL.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="4ec5f7ab-822d-3330-9c67-53e860f4201b">
+		<BuildDependency Project="ALL_BUILD.vcxproj"/>
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<Build Solution="Debug|*" Project="false"/>
+		<Build Solution="Release|*" Project="false"/>
+		<Build Solution="MinSizeRel|*" Project="false"/>
+		<Build Solution="RelWithDebInfo|*" Project="false"/>
+	</Project>
+	<Project Path="ZERO_CHECK.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="149d1604-23af-3d5e-b698-f61af1aebb21"/>
+	<Project Path="llama_build/ggml/src/ggml.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="190d1857-4306-3290-b7c3-63fc18afb336">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-base.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-cpu.vcxproj"/>
+	</Project>
+	<Project Path="llama_build/ggml/src/ggml-base.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="85881d26-a56b-3a35-af90-387f92f73f7d">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+	</Project>
+	<Project Path="llama_build/ggml/src/ggml-cpu.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="5b9aea99-e35f-3c07-9cf2-2b349722175d">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-base.vcxproj"/>
+	</Project>
+	<Project Path="llama_build/src/llama.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="b18d54a3-e441-3583-88a3-93539c9bab5c">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-base.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-cpu.vcxproj"/>
+	</Project>
+	<Project Path="obsia.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="c3e3ae3a-8275-3f40-9eb2-98657affd991">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-base.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-cpu.vcxproj"/>
+		<BuildDependency Project="llama_build/src/llama.vcxproj"/>
+	</Project>
+	<Project Path="test_runner.vcxproj" Type="8bc9ceb8-8b4a-11d0-8d11-00a0c91bc942" Id="523c1930-f255-327d-8562-82576efae1ef">
+		<BuildDependency Project="ZERO_CHECK.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-base.vcxproj"/>
+		<BuildDependency Project="llama_build/ggml/src/ggml-cpu.vcxproj"/>
+		<BuildDependency Project="llama_build/src/llama.vcxproj"/>
+		<BuildDependency Project="obsia.vcxproj"/>
+	</Project>
+</Solution>

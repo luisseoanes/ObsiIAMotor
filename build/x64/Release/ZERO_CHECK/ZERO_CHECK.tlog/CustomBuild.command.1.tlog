@@ -1,0 +1,10 @@
+^C:\USERS\LUIS SEOANES\DESKTOP\ARROW\MODELOFINAL\BUILD\CMAKEFILES\18E740964D2C24E01FCE89F693133A1D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Luis Seoanes/Desktop/arrow/modeloFinal" "-BC:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/obsia_mobile_lib.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

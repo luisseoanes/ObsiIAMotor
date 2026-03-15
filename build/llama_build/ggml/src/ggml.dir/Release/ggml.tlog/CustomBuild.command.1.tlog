@@ -1,0 +1,10 @@
+^C:\USERS\LUIS SEOANES\DESKTOP\ARROW\MODELOFINAL\LLAMA.CPP\GGML\SRC\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Luis Seoanes/Desktop/arrow/modeloFinal" "-BC:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build" --check-stamp-file "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

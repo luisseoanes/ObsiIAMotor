@@ -1,0 +1,16 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.2/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/CMakeLists.txt
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/cmake/build-info.cmake
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/cmake/common.cmake
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/cmake/license.cmake
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/cmake/llama-config.cmake.in
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/cmake/llama.pc.in
+C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/cmake/common.cmake

@@ -1,0 +1,1437 @@
+Versión de MSBuild 18.0.5+e22287bf1 para .NET Framework
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/Luis Seoanes/Desktop/arrow/llm/llama.cpp/ggml/src/CMakeLists.txt
+  ggml.c
+  ggml.cpp
+  ggml-alloc.c
+  ggml-quants.c
+  Generando código...
+  ggml-backend.cpp
+  ggml-opt.cpp
+  ggml-threading.cpp
+  gguf.cpp
+  Generando código...
+     Creando biblioteca C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/Release/ggml-base.lib y objeto C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/Release/ggml-base.exp
+  ggml-base.vcxproj -> C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\bin\Release\ggml-base.dll
+  Building Custom Rule C:/Users/Luis Seoanes/Desktop/arrow/llm/llama.cpp/ggml/src/CMakeLists.txt
+  ggml-cpu.c
+  ggml-cpu.cpp
+  repack.cpp
+  hbm.cpp
+  traits.cpp
+  amx.cpp
+  mmq.cpp
+  binary-ops.cpp
+  unary-ops.cpp
+  vec.cpp
+  ops.cpp
+  sgemm.cpp
+  Generando código...
+  quants.c
+  quants.c
+  repack.cpp
+     Creando biblioteca C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/Release/ggml-cpu.lib y objeto C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/Release/ggml-cpu.exp
+  ggml-cpu.vcxproj -> C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\bin\Release\ggml-cpu.dll
+  Building Custom Rule C:/Users/Luis Seoanes/Desktop/arrow/llm/llama.cpp/ggml/src/CMakeLists.txt
+  ggml-backend-dl.cpp
+  ggml-backend-reg.cpp
+  Generando código...
+     Creando biblioteca C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/Release/ggml.lib y objeto C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/ggml/src/Release/ggml.exp
+  ggml.vcxproj -> C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\bin\Release\ggml.dll
+  Building Custom Rule C:/Users/Luis Seoanes/Desktop/arrow/llm/llama.cpp/src/CMakeLists.txt
+  llama.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.h(35,52): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.h(35,34): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama.cpp(673,52): warning C4018: '>': no coinciden signed/unsigned [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-adapter.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-adapter.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.cpp(67,61): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.cpp(193,20): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.cpp(197,20): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.cpp(222,38): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.cpp(222,23): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.cpp(241,19): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-arch.cpp
+  llama-batch.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(76,40): warning C4267: '=': conversión de 'size_t' a '_Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(76,40): warning C4267:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(76,40): warning C4267:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(76,40): warning C4267:             _Ty=llama_token [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(76,40): warning C4267:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(203,45): warning C4267: '=': conversión de 'size_t' a '_Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(203,45): warning C4267:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(203,45): warning C4267:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(203,45): warning C4267:             _Ty=llama_token [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(203,45): warning C4267:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(503,38): warning C4267: 'argumento': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(549,45): warning C4267: 'inicializando': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(549,27): warning C4267: 'inicializando': conversión de 'size_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(680,40): warning C4267: 'inicializando': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(680,29): warning C4267: 'inicializando': conversión de 'size_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(743,55): warning C4267: '=': conversión de 'size_t' a '_Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(743,55): warning C4267:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(743,55): warning C4267:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(743,55): warning C4267:             _Ty=llama_token [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-batch.cpp(743,55): warning C4267:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-chat.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-chat.cpp(884,21): warning C4267: 'return': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-context.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-context.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(403,99): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(475,111): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(562,21): warning C4244: '+=': conversión de 'int64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(879,37): warning C4101: 'err': variable local sin referencia [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1195,56): warning C4244: 'argumento': conversión de 'const int64_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1417,37): warning C4244: '=': conversión de 'int64_t' a '_Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1417,37): warning C4244:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1417,37): warning C4244:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1417,37): warning C4244:             _Ty=std::_Vbase [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1417,37): warning C4244:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1448,37): warning C4244: '=': conversión de 'int64_t' a '_Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1448,37): warning C4244:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1448,37): warning C4244:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1448,37): warning C4244:             _Ty=std::_Vbase [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1448,37): warning C4244:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1518,55): warning C4244: 'argumento': conversión de 'const int64_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1746,76): warning C4244: 'argumento': conversión de 'int64_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1773,34): warning C4244: '=': conversión de 'int64_t' a '_Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1773,34): warning C4244:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1773,34): warning C4244:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1773,34): warning C4244:             _Ty=llama_token [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1773,34): warning C4244:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(1950,12): warning C4244: 'return': conversión de 'const int64_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2017,54): warning C4267: 'argumento': conversión de 'size_t' a 'const _Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2017,54): warning C4267:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2017,54): warning C4267:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2017,54): warning C4267:             _Ty=unsigned int [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2017,54): warning C4267:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2019,48): warning C4267: 'argumento': conversión de 'size_t' a 'const _Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2019,48): warning C4267:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2019,48): warning C4267:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2019,48): warning C4267:             _Ty=unsigned int [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2019,48): warning C4267:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2520,37): warning C4267: '=': conversión de 'size_t' a '_Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2520,37): warning C4267:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2520,37): warning C4267:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2520,37): warning C4267:             _Ty=llama_token [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(2520,37): warning C4267:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(3014,50): warning C4244: 'inicializando': conversión de 'int64_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(3014,34): warning C4244: 'inicializando': conversión de 'int64_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(3023,50): warning C4244: 'inicializando': conversión de 'int64_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(3023,34): warning C4244: 'inicializando': conversión de 'int64_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-context.cpp(3573,29): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-cparams.cpp
+  llama-grammar.cpp
+  llama-graph.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-graph.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(60,24): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-graph.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(80,25): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-graph.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(144,29): warning C4267: 'argumento': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-graph.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(297,28): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-graph.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(82,44): warning C4244: 'inicializando': conversión de 'llama_pos' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(82,29): warning C4244: 'inicializando': conversión de 'llama_pos' a 'const float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(85,35): warning C4244: '=': conversión de 'double' a '_Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(85,35): warning C4244:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(85,35): warning C4244:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(85,35): warning C4244:             _Ty=float [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(85,35): warning C4244:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(163,44): warning C4244: '+=': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(180,44): warning C4244: '+=': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(1195,80): warning C4244: 'argumento': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(1409,60): warning C4244: 'argumento': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(1423,77): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2046,50): warning C4244: 'inicializando': conversión de 'int64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2046,25): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2233,33): warning C4244: 'argumento': conversión de 'const int64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2470,65): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2476,65): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2482,65): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2488,65): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2519,52): warning C4244: '+=': conversión de 'uint64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2525,90): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2525,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2525,40): warning C4244: 'inicializando': conversión de 'float' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2526,90): warning C4244: 'argumento': conversión de 'uint64_t' a 'const _Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2526,90): warning C4244:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2526,90): warning C4244:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2526,90): warning C4244:             _Ty=int32_t [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(2526,90): warning C4244:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\memory(3659,56): warning C4244: 'argumento': conversión de 'const int64_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-graph.cpp')
+      C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\memory(3659,56):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-graph.cpp(1483,21):
+          Vea la referencia a la creación de una instancia de la función plantilla "std::unique_ptr<llm_graph_input_out_ids,std::default_delete<llm_graph_input_out_ids>> std::make_unique<llm_graph_input_out_ids,const llama_hparams&,const llama_cparams&,const int64_t&,0>(const llama_hparams &,const llama_cparams &,const int64_t &)" que se está compilando
+  
+  llama-hparams.cpp
+  llama-impl.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-impl.cpp(145,27): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-io.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-io.cpp(4,23): warning C4267: 'inicializando': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-kv-cache.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-kv-cache.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(60,24): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-kv-cache.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(80,25): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-kv-cache.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(144,29): warning C4267: 'argumento': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-kv-cache.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(297,28): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-kv-cache.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(152,40): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(747,43): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(747,33): warning C4267: 'inicializando': conversión de 'size_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(915,47): warning C4267: 'inicializando': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(915,30): warning C4267: 'inicializando': conversión de 'size_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1148,47): warning C4244: 'argumento': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1489,35): warning C4244: 'inicializando': conversión de 'int64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1489,24): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1751,51): warning C4267: 'inicializando': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1751,37): warning C4267: 'inicializando': conversión de 'size_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1770,41): warning C4267: 'inicializando': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1770,28): warning C4267: 'inicializando': conversión de 'size_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1845,54): warning C4267: 'inicializando': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1845,38): warning C4267: 'inicializando': conversión de 'size_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1294,40): warning C4244: 'inicializando': conversión de 'int64_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1294,40):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1468,9):
+          Vea la referencia a la creación de una instancia de la función plantilla "void set_input_kq_mask_impl<true>(const args_set_input_kq_mask &,float *)" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1433,9):
+          Vea la referencia a la creación de una instancia de la función plantilla "void set_input_kq_mask_impl<true,true>(const args_set_input_kq_mask &,float *)" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1423,9):
+          Vea la referencia a la creación de una instancia de la función plantilla "void set_input_kq_mask_impl<true,true,true>(const args_set_input_kq_mask &,float *)" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1413,9):
+          Vea la referencia a la creación de una instancia de la función plantilla "void set_input_kq_mask_impl<true,true,true,true>(const args_set_input_kq_mask &,float *)" que se está compilando
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1294,30): warning C4244: 'inicializando': conversión de 'int64_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cache.cpp(1396,38): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-kv-cache-iswa.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-kv-cache-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(60,24): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-kv-cache-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(80,25): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-kv-cache-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(144,29): warning C4267: 'argumento': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-kv-cache-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(297,28): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-kv-cache-iswa.cpp')
+  
+  llama-memory.cpp
+  llama-memory-hybrid.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-hybrid.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(60,24): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-hybrid.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(80,25): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-hybrid.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(144,29): warning C4267: 'argumento': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-hybrid.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(297,28): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-hybrid.cpp')
+  
+  llama-memory-hybrid-iswa.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-hybrid-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(60,24): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-hybrid-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(80,25): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-hybrid-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(144,29): warning C4267: 'argumento': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-hybrid-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(297,28): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-hybrid-iswa.cpp')
+  
+  llama-memory-recurrent.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-memory-recurrent.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-memory-recurrent.cpp(656,25): warning C4244: '=': conversión de '__int64' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-memory-recurrent.cpp(767,53): warning C4267: 'inicializando': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-memory-recurrent.cpp(767,38): warning C4267: 'inicializando': conversión de 'size_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-memory-recurrent.cpp(844,54): warning C4267: 'inicializando': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-memory-recurrent.cpp(844,38): warning C4267: 'inicializando': conversión de 'size_t' a 'const uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-mmap.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-mmap.cpp(118,89): warning C4267: 'argumento': conversión de 'size_t' a 'DWORD'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-mmap.cpp(141,99): warning C4267: 'argumento': conversión de 'size_t' a 'DWORD'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-model-loader.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.h(35,52): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-model-loader.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.h(35,34): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-model-loader.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(476,37): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(476,22): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(611,46): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(611,31): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(650,30): warning C4244: '=': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(651,33): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(266,38): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(266,38):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(289,39):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool llama_model_loader::get_arr_n<uint32_t>(llm_kv,uint32_t &,bool)" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(286,16):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool llama_model_loader::get_arr_n<T>(const std::string &,T &,bool)" que se está compilando
+          with
+          [
+              T=uint32_t
+          ]
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(266,23): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(279,26): warning C4267: '=': conversión de 'size_t' a 'T'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(279,26): warning C4267:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(279,26): warning C4267:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(279,26): warning C4267:             T=uint32_t [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(279,26): warning C4267:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(294,38): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(294,38):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(387,39):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool llama_model_loader::get_arr<std::vector<std::string,std::allocator<std::string>>>(llm_kv,std::vector<std::string,std::allocator<std::string>> &,bool)" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(384,16):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool llama_model_loader::get_arr<std::string>(const std::string &,std::vector<std::string,std::allocator<std::string>> &,bool)" que se está compilando
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(294,23): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(430,38): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(430,38):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(497,39):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool llama_model_loader::get_key_or_arr<std::array<int,4>>(llm_kv,std::array<int,4> &,uint32_t,bool)" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(470,16):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool llama_model_loader::get_key_or_arr<int,4>(const std::string &,std::array<int,4> &,uint32_t,bool)" que se está compilando
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(430,23): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(335,38): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(335,38):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(470,16):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool llama_model_loader::get_key_or_arr<int,4>(const std::string &,std::array<int,4> &,uint32_t,bool)" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(451,20):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool llama_model_loader::get_arr<int,4>(const std::string &,std::array<int,4> &,bool)" que se está compilando
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(335,23): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(254,42): warning C4244: 'argumento': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(254,42):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(637,9):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool llama_model_loader::get_key<int>(const std::string &,T &,bool)" que se está compilando
+          with
+          [
+              T=int
+          ]
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(396,46):
+          Vea la referencia a la creación de una instancia de clase plantilla "GGUFMeta::GKV<T>" que se está compilando
+          with
+          [
+              T=int
+          ]
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(253,21):
+          al compilar la función del miembro clase plantilla "bool GGUFMeta::GKV<T>::set(const gguf_context *,const char *,T &,const llama_model_kv_override *)"
+          with
+          [
+              T=int
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(258,13):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “GGUFMeta::GKV<T>::set”
+          with
+          [
+              T=int
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(396,26):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “llama_model_loader::get_key”
+          with
+          [
+              T=int
+          ]
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244: '=': conversión de 'const int64_t' a 'OT'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:             OT=int [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(244,21):
+          al compilar la función del miembro clase plantilla "bool GGUFMeta::GKV<T>::set(const gguf_context *,const int,T &,const llama_model_kv_override *)"
+          with
+          [
+              T=int
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(254,13):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “GGUFMeta::GKV<T>::set”
+          with
+          [
+              T=int
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(258,13):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “GGUFMeta::GKV<T>::set”
+          with
+          [
+              T=int
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(396,26):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “llama_model_loader::get_key”
+          with
+          [
+              T=int
+          ]
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(245,17):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool GGUFMeta::GKV<T>::try_override<T>(OT &,const llama_model_kv_override *)" que se está compilando
+          with
+          [
+              T=int,
+              OT=int
+          ]
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244: '=': conversión de 'const int64_t' a 'OT'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:             OT=uint16_t [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(244,21):
+          al compilar la función del miembro clase plantilla "bool GGUFMeta::GKV<T>::set(const gguf_context *,const int,T &,const llama_model_kv_override *)"
+          with
+          [
+              T=uint16_t
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(254,13):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “GGUFMeta::GKV<T>::set”
+          with
+          [
+              T=uint16_t
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(258,13):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “GGUFMeta::GKV<T>::set”
+          with
+          [
+              T=uint16_t
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(396,26):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “llama_model_loader::get_key”
+          with
+          [
+              T=uint16_t
+          ]
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(245,17):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool GGUFMeta::GKV<T>::try_override<T>(OT &,const llama_model_kv_override *)" que se está compilando
+          with
+          [
+              T=uint16_t,
+              OT=uint16_t
+          ]
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244: '=': conversión de 'const int64_t' a 'OT'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:             OT=uint32_t [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30): warning C4244:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(218,30):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(244,21):
+          al compilar la función del miembro clase plantilla "bool GGUFMeta::GKV<T>::set(const gguf_context *,const int,T &,const llama_model_kv_override *)"
+          with
+          [
+              T=uint32_t
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(254,13):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “GGUFMeta::GKV<T>::set”
+          with
+          [
+              T=uint32_t
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(258,13):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “GGUFMeta::GKV<T>::set”
+          with
+          [
+              T=uint32_t
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(396,26):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “llama_model_loader::get_key”
+          with
+          [
+              T=uint32_t
+          ]
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(245,17):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool GGUFMeta::GKV<T>::try_override<T>(OT &,const llama_model_kv_override *)" que se está compilando
+          with
+          [
+              T=uint32_t,
+              OT=uint32_t
+          ]
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(228,30): warning C4244: '=': conversión de 'const double' a 'T'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(228,30): warning C4244:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(228,30): warning C4244:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(228,30): warning C4244:             T=float [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(228,30): warning C4244:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(228,30):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(244,21):
+          al compilar la función del miembro clase plantilla "bool GGUFMeta::GKV<T>::set(const gguf_context *,const int,T &,const llama_model_kv_override *)"
+          with
+          [
+              T=float
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(254,13):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “GGUFMeta::GKV<T>::set”
+          with
+          [
+              T=float
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(258,13):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “GGUFMeta::GKV<T>::set”
+          with
+          [
+              T=float
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(396,26):
+              vea la primera referencia a “GGUFMeta::GKV<T>::set” en “llama_model_loader::get_key”
+          with
+          [
+              T=float
+          ]
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(407,16):
+              vea la primera referencia a “llama_model_loader::get_key” en “llama_model_loader::get_key”
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.cpp(245,17):
+          Vea la referencia a la creación de una instancia de la función plantilla "bool GGUFMeta::GKV<T>::try_override<T>(T &,const llama_model_kv_override *)" que se está compilando
+          with
+          [
+              T=float
+          ]
+  
+  llama-model-saver.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-model-saver.cpp')
+  
+  Generando código...
+  Compilando...
+  llama-model.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-model.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.h(35,52): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-model.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.h(35,34): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-model.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(60,24): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-model.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(80,25): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-model.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(144,29): warning C4267: 'argumento': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-model.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(297,28): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-model.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(407,61): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(632,51): warning C4267: '=': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(2108,38): warning C4305: '=': truncamiento de 'double' a 'float' [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(2517,25): warning C4244: '=': conversión de 'size_t' a '_Ty'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(2517,25): warning C4244:         with [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(2517,25): warning C4244:         [ [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(2517,25): warning C4244:             _Ty=float [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(2517,25): warning C4244:         ] [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(2541,134): warning C4244: 'inicializando': conversión de '__int64' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(2541,29): warning C4244: 'inicializando': conversión de '__int64' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(2648,48): warning C4101: 'e': variable local sin referencia [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(5650,50): warning C4244: 'inicializando': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(5650,48): warning C4244: 'inicializando': conversión de 'const int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(5707,50): warning C4244: 'inicializando': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(5707,48): warning C4244: 'inicializando': conversión de 'const int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(5766,50): warning C4244: 'inicializando': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(5766,48): warning C4244: 'inicializando': conversión de 'const int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(5833,50): warning C4244: 'inicializando': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(5833,48): warning C4244: 'inicializando': conversión de 'const int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model.cpp(5864,54): warning C4101: 'e': variable local sin referencia [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-quant.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-quant.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.h(35,52): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-quant.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.h(35,34): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-quant.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-quant.cpp(602,57): warning C4244: 'argumento': conversión de 'const double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-quant.cpp(702,85): warning C4267: 'argumento': conversión de 'size_t' a 'uint16_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-quant.cpp(983,143): warning C4244: 'argumento': conversión de 'const int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\type_traits(1688,98): warning C4244: 'argumento': conversión de 'unsigned __int64' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-quant.cpp')
+      C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\type_traits(1688,98):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-quant.cpp(170,17):
+          Vea la referencia a la creación de una instancia de la función plantilla "std::thread &std::vector<std::thread,std::allocator<std::thread>>::emplace_back<llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728>&,ggml_type&,uint8_t*,float*,size_t&>(llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728> &,ggml_type &,uint8_t *&&,float *&&,size_t &)" que se está compilando
+              C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-quant.cpp(170,29):
+              vea la primera referencia a “std::vector<std::thread,std::allocator<std::thread>>::emplace_back” en “llama_tensor_dequantize_impl”
+          C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\vector(924,24):
+          Vea la referencia a la creación de una instancia de la función plantilla "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728>&,ggml_type&,unsigned char*,float*,size_t&>(llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728> &,ggml_type &,unsigned char *&&,float *&&,size_t &)" que se está compilando
+          with
+          [
+              _Ty=std::thread
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\vector(845,20):
+          Vea la referencia a la creación de una instancia de la función plantilla "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728>&,ggml_type&,unsigned char*,float*,size_t&>(llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728> &,ggml_type &,unsigned char *&&,float *&&,size_t &)" que se está compilando
+          with
+          [
+              _Ty=std::thread
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\vector(863,27):
+          Vea la referencia a la creación de una instancia de la función plantilla "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728>&,ggml_type&,unsigned char*,float*,size_t&>(_Alloc &,_Objty *const ,llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728> &,ggml_type &,unsigned char *&&,float *&&,size_t &)" que se está compilando
+          with
+          [
+              _Alloc=std::allocator<std::thread>,
+              _Ty=std::thread,
+              _Objty=std::thread
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\xmemory(736,82):
+          Vea la referencia a la creación de una instancia de la función plantilla "std::thread::thread<llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728>&,ggml_type&,_Ty,float*,size_t&,0>(_Fn,ggml_type &,_Ty &&,float *&&,size_t &)" que se está compilando
+          with
+          [
+              _Ty=uint8_t *,
+              _Fn=llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728> &
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\thread(93,9):
+          Vea la referencia a la creación de una instancia de la función plantilla "void std::thread::_Start<llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728>&,ggml_type&,_Ty,float*,size_t&>(_Fn,ggml_type &,_Ty &&,float *&&,size_t &)" que se está compilando
+          with
+          [
+              _Ty=uint8_t *,
+              _Fn=llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728> &
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\thread(76,40):
+          Vea la referencia a la creación de una instancia de la función plantilla "unsigned int (__cdecl *std::thread::_Get_invoke<std::thread::_Start::_Tuple,0,1,2,3,4>(std::integer_sequence<size_t,0,1,2,3,4>) noexcept)(void *) noexcept" que se está compilando
+          C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\thread(67,17):
+          Vea la referencia a la creación de una instancia de la función plantilla "unsigned int std::thread::_Invoke<_Tuple,0,1,2,3,4>(void *) noexcept" que se está compilando
+          with
+          [
+              _Tuple=std::thread::_Start::_Tuple
+          ]
+          C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\include\thread(60,14):
+          Vea la referencia a la creación de una instancia de la función plantilla "void std::invoke<llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728>,ggml_type,uint8_t*,float*,unsigned __int64>(_Callable &&,_Ty1 &&,uint8_t *&&,float *&&,unsigned __int64 &&) noexcept(false)" que se está compilando
+          with
+          [
+              _Callable=llama_tensor_dequantize_impl::<lambda_99809f70a3686e6322ff64c5ea2ca728>,
+              _Ty1=ggml_type
+          ]
+  
+  llama-sampling.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(294,65): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(922,28): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1090,29): warning C4244: '/=': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1185,91): warning C4244: 'argumento': conversión de 'int64_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1212,27): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1212,21): warning C4244: 'inicializando': conversión de 'double' a 'const float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1368,53): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1372,60): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1392,57): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1477,52): warning C4244: 'argumento': conversión de 'int64_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1580,69): warning C4267: 'argumento': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1964,32): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(1969,33): warning C4244: '/=': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(2021,54): warning C4244: 'argumento': conversión de 'int64_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(2139,24): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(2251,68): warning C4244: 'argumento': conversión de 'const int32_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(2805,23): warning C4244: '+=': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(3106,38): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(3129,31): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(3479,76): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(3678,103): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(3681,103): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(3685,103): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(3688,103): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(3694,25): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(3695,25): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-sampling.cpp(3764,16): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-vocab.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.h(35,52): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-vocab.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-model-loader.h(35,34): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/llama-vocab.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(596,82): warning C4267: '=': conversión de 'size_t' a 'llm_symbol::index'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(599,61): warning C4267: '=': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(691,37): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(691,25): warning C4267: 'inicializando': conversión de 'size_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(1259,55): warning C4267: 'argumento': conversión de 'size_t' a 'llama_token'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(1264,31): warning C4267: 'argumento': conversión de 'size_t' a 'llama_token'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(1754,52): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(1754,37): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(1759,48): warning C4267: 'inicializando': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(1759,32): warning C4267: 'inicializando': conversión de 'size_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(1795,66): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(1795,51): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(2078,40): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(2078,25): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(2084,40): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(2084,25): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(2090,42): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(2090,27): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(2095,23): warning C4267: 'inicializando': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(2678,26): warning C4244: 'return': conversión de 'long' a 'uint8_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(2851,74): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(2854,70): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-vocab.cpp(3627,20): warning C4267: 'return': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  unicode-data.cpp
+  unicode.cpp
+  afmoe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/afmoe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\afmoe.cpp(69,25): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\afmoe.cpp(75,25): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  apertus.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/apertus.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\apertus.cpp(54,69): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\apertus.cpp(57,69): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  arcee.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/arcee.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\arcee.cpp(66,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\arcee.cpp(72,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  arctic.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/arctic.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\arctic.cpp(49,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\arctic.cpp(55,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  arwkv7.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/arwkv7.cpp')
+  
+  baichuan.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/baichuan.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\baichuan.cpp(49,29): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\baichuan.cpp(54,29): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  bailingmoe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/bailingmoe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\bailingmoe.cpp(59,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\bailingmoe.cpp(65,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  bailingmoe2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/bailingmoe2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\bailingmoe2.cpp(24,46): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\bailingmoe2.cpp(24,36): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\bailingmoe2.cpp(47,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\bailingmoe2.cpp(53,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  bert.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/bert.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\bert.cpp(93,68): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\bert.cpp(96,68): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  bitnet.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/bitnet.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\bitnet.cpp(70,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\bitnet.cpp(76,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  bloom.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/bloom.cpp')
+  
+  chameleon.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/chameleon.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\chameleon.cpp(82,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\chameleon.cpp(88,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  chatglm.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/chatglm.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\chatglm.cpp(68,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\chatglm.cpp(74,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  codeshell.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/codeshell.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\codeshell.cpp(43,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\codeshell.cpp(49,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  Generando código...
+  Compilando...
+  cogvlm.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/cogvlm.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\cogvlm.cpp(63,51): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\cogvlm.cpp(64,51): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  cohere2-iswa.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/cohere2-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\cohere2-iswa.cpp(67,25): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\cohere2-iswa.cpp(73,25): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  command-r.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/command-r.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\command-r.cpp(61,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\command-r.cpp(68,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  dbrx.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/dbrx.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\dbrx.cpp(50,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\dbrx.cpp(56,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  deci.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/deci.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\deci.cpp(72,69): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\deci.cpp(75,69): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  deepseek.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/deepseek.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\deepseek.cpp(62,69): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\deepseek.cpp(65,69): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  deepseek2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/deepseek2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\deepseek2.cpp(102,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\deepseek2.cpp(106,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  dots1.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/dots1.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\dots1.cpp(50,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\dots1.cpp(56,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  dream.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/dream.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\dream.cpp(51,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\dream.cpp(54,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  ernie4-5-moe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/ernie4-5-moe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\ernie4-5-moe.cpp(57,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\ernie4-5-moe.cpp(60,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  ernie4-5.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/ernie4-5.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\ernie4-5.cpp(54,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\ernie4-5.cpp(57,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  exaone.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/exaone.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone.cpp(59,69): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone.cpp(62,69): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  exaone4.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/exaone4.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone4.cpp(61,73): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone4.cpp(61,73):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone4.cpp(122,41):
+          Vea la referencia a la creación de una instancia de clase plantilla "llm_build_exaone4<false>" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone4.cpp(5,104):
+          al compilar la función del miembro clase plantilla "llm_build_exaone4<false>::llm_build_exaone4(const llama_model &,const llm_graph_params &)"
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone4.cpp(64,73): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  exaone-moe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/exaone-moe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone-moe.cpp(23,46): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone-moe.cpp(23,36): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone-moe.cpp(58,73): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\exaone-moe.cpp(61,73): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  falcon-h1.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/falcon-h1.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\falcon-h1.cpp(46,60): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\falcon-h1.cpp(49,60): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  falcon.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/falcon.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\falcon.cpp(55,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\falcon.cpp(61,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  gemma-embedding.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/gemma-embedding.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma-embedding.cpp(13,56): warning C4244: 'argumento': conversión de 'const int64_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma-embedding.cpp(50,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma-embedding.cpp(56,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  gemma.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/gemma.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma.cpp(12,41): warning C4244: 'argumento': conversión de 'const int64_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma.cpp(47,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma.cpp(52,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  gemma2-iswa.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/gemma2-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma2-iswa.cpp(11,41): warning C4244: 'argumento': conversión de 'const int64_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma2-iswa.cpp(49,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma2-iswa.cpp(54,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  gemma3.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/gemma3.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma3.cpp(13,56): warning C4244: 'argumento': conversión de 'const int64_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma3.cpp(13,56):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma3.cpp(154,40):
+          Vea la referencia a la creación de una instancia de clase plantilla "llm_build_gemma3<false>" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma3.cpp(4,102):
+          al compilar la función del miembro clase plantilla "llm_build_gemma3<false>::llm_build_gemma3(const llama_model &,const llm_graph_params &)"
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma3.cpp(68,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma3.cpp(76,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  Generando código...
+  Compilando...
+  gemma3n-iswa.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/gemma3n-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma3n-iswa.cpp(16,56): warning C4244: 'argumento': conversión de 'const int64_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma3n-iswa.cpp(87,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma3n-iswa.cpp(90,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gemma3n-iswa.cpp(108,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  glm4-moe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/glm4-moe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\glm4-moe.cpp(31,46): warning C4244: 'inicializando': conversión de 'int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\glm4-moe.cpp(31,36): warning C4244: 'inicializando': conversión de 'int64_t' a 'const int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\glm4-moe.cpp(75,29): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\glm4-moe.cpp(79,29): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\glm4-moe.cpp(83,68): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\glm4-moe.cpp(87,68): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  glm4.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/glm4.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\glm4.cpp(78,29): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\glm4.cpp(82,29): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\glm4.cpp(86,68): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\glm4.cpp(90,68): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  gpt2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/gpt2.cpp')
+  
+  gptneox.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/gptneox.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gptneox.cpp(43,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\gptneox.cpp(49,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  granite-hybrid.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/granite-hybrid.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\granite-hybrid.cpp(106,65): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\granite-hybrid.cpp(109,65): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  granite.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/granite.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\granite.cpp(111,17): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\granite.cpp(117,17): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  grok.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/grok.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\grok.cpp(57,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\grok.cpp(63,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\grok.cpp(116,83): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  grovemoe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/grovemoe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\grovemoe.cpp(51,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\grovemoe.cpp(57,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  hunyuan-dense.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/hunyuan-dense.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\hunyuan-dense.cpp(61,25): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\hunyuan-dense.cpp(71,25): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  hunyuan-moe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/hunyuan-moe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\hunyuan-moe.cpp(62,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\hunyuan-moe.cpp(72,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  internlm2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/internlm2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\internlm2.cpp(57,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\internlm2.cpp(63,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  jais.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/jais.cpp')
+  
+  jamba.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/jamba.cpp')
+  
+  lfm2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/lfm2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(60,24): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/lfm2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(80,25): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/lfm2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(144,29): warning C4267: 'argumento': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/lfm2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-kv-cells.h(297,28): warning C4267: 'return': conversión de 'size_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/lfm2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\lfm2.cpp(102,50): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\lfm2.cpp(104,50): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\lfm2.cpp(148,76): warning C4244: 'argumento': conversión de 'const int64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llada-moe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/llada-moe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llada-moe.cpp(54,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llada-moe.cpp(60,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llada.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/llada.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llada.cpp(45,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llada.cpp(48,64): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  llama-iswa.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/llama-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llama-iswa.cpp(74,25): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llama-iswa.cpp(80,25): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  maincoder.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/maincoder.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\maincoder.cpp(48,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\maincoder.cpp(54,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  mamba.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/mamba.cpp')
+  
+  Generando código...
+  Compilando...
+  mimo2-iswa.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/mimo2-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\mimo2-iswa.cpp(45,17): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\mimo2-iswa.cpp(51,17): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  minicpm3.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/minicpm3.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\minicpm3.cpp(117,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\minicpm3.cpp(125,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  minimax-m2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/minimax-m2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\minimax-m2.cpp(53,17): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\minimax-m2.cpp(59,17): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  modern-bert.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/modern-bert.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\modern-bert.cpp(52,17): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\modern-bert.cpp(58,17): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  mpt.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/mpt.cpp')
+  
+  nemotron-h.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/nemotron-h.cpp')
+  
+  nemotron.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/nemotron.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\nemotron.cpp(58,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\nemotron.cpp(64,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  neo-bert.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/neo-bert.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\neo-bert.cpp(45,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\neo-bert.cpp(51,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  olmo.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/olmo.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmo.cpp(57,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmo.cpp(63,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  olmo2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/olmo2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmo2.cpp(65,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmo2.cpp(65,21):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmo2.cpp(149,39):
+          Vea la referencia a la creación de una instancia de clase plantilla "llm_build_olmo2<false>" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmo2.cpp(4,100):
+          al compilar la función del miembro clase plantilla "llm_build_olmo2<false>::llm_build_olmo2(const llama_model &,const llm_graph_params &)"
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmo2.cpp(71,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmo2.cpp(77,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmo2.cpp(83,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  olmoe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/olmoe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmoe.cpp(56,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\olmoe.cpp(62,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  openai-moe-iswa.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/openai-moe-iswa.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\openai-moe-iswa.cpp(55,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\openai-moe-iswa.cpp(61,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  openelm.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/openelm.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\openelm.cpp(61,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\openelm.cpp(67,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  orion.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/orion.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\orion.cpp(60,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\orion.cpp(66,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  pangu-embedded.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/pangu-embedded.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\pangu-embedded.cpp(52,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\pangu-embedded.cpp(57,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  phi2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/phi2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\phi2.cpp(58,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\phi2.cpp(64,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  phi3.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/phi3.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\phi3.cpp(65,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\phi3.cpp(65,21):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\phi3.cpp(151,38):
+          Vea la referencia a la creación de una instancia de clase plantilla "llm_build_phi3<false>" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\phi3.cpp(4,98):
+          al compilar la función del miembro clase plantilla "llm_build_phi3<false>::llm_build_phi3(const llama_model &,const llm_graph_params &)"
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\phi3.cpp(71,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  plamo.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/plamo.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plamo.cpp(48,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plamo.cpp(54,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  plamo2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/plamo2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plamo2.cpp(131,60): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plamo2.cpp(137,60): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plamo2.cpp(176,77): warning C4244: 'argumento': conversión de 'const int64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  plamo3.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/plamo3.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plamo3.cpp(67,17): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plamo3.cpp(67,17):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plamo3.cpp(127,40):
+          Vea la referencia a la creación de una instancia de clase plantilla "llm_build_plamo3<false>" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plamo3.cpp(4,102):
+          al compilar la función del miembro clase plantilla "llm_build_plamo3<false>::llm_build_plamo3(const llama_model &,const llm_graph_params &)"
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plamo3.cpp(70,17): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  Generando código...
+  Compilando...
+  plm.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/plm.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plm.cpp(103,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\plm.cpp(111,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  qwen.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/qwen.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen.cpp(44,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen.cpp(50,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  qwen2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/qwen2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen2.cpp(60,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen2.cpp(66,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  qwen2moe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/qwen2moe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen2moe.cpp(57,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen2moe.cpp(63,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  qwen2vl.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/qwen2vl.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen2vl.cpp(54,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen2vl.cpp(60,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  qwen3.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/qwen3.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3.cpp(51,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3.cpp(60,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  qwen3vl.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/qwen3vl.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3vl.cpp(57,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3vl.cpp(66,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  qwen3vl-moe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/qwen3vl-moe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3vl-moe.cpp(57,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3vl-moe.cpp(66,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  qwen3moe.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/qwen3moe.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3moe.cpp(51,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3moe.cpp(60,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  qwen3next.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/qwen3next.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(132,38): warning C4244: 'argumento': conversión de 'const int64_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(170,30): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(171,30): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(172,30): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(173,27): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(174,36): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(391,38): warning C4244: 'argumento': conversión de 'const int64_t' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(510,13): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(515,13): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(692,84): warning C4244: 'argumento': conversión de 'const int64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\qwen3next.cpp(754,77): warning C4244: 'argumento': conversión de 'const int64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  refact.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/refact.cpp')
+  
+  rnd1.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/rnd1.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\rnd1.cpp(53,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\rnd1.cpp(62,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  rwkv6-base.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/rwkv6-base.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\rwkv6-base.cpp(135,77): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  rwkv6.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/rwkv6.cpp')
+  
+  rwkv6qwen2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/rwkv6qwen2.cpp')
+  
+  rwkv7-base.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/rwkv7-base.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\rwkv7-base.cpp(68,64): warning C4305: 'argumento': truncamiento de 'double' a 'float' [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\rwkv7-base.cpp(92,47): warning C4305: 'argumento': truncamiento de 'double' a 'float' [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  rwkv7.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/rwkv7.cpp')
+  
+  seed-oss.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/seed-oss.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\seed-oss.cpp(59,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\seed-oss.cpp(65,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  smallthinker.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/smallthinker.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\smallthinker.cpp(62,68): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\smallthinker.cpp(62,68):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\smallthinker.cpp(125,46):
+          Vea la referencia a la creación de una instancia de clase plantilla "llm_build_smallthinker<false>" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\smallthinker.cpp(4,114):
+          al compilar la función del miembro clase plantilla "llm_build_smallthinker<false>::llm_build_smallthinker(const llama_model &,const llm_graph_params &)"
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\smallthinker.cpp(65,68): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  smollm3.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/smollm3.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\smollm3.cpp(62,25): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\smollm3.cpp(68,25): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  Generando código...
+  Compilando...
+  stablelm.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/stablelm.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\stablelm.cpp(75,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\stablelm.cpp(81,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  starcoder.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/starcoder.cpp')
+  
+  starcoder2.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/starcoder2.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\starcoder2.cpp(57,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\starcoder2.cpp(63,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  t5-dec.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/t5-dec.cpp')
+  
+  t5-enc.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/t5-enc.cpp')
+  
+  wavtokenizer-dec.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/wavtokenizer-dec.cpp')
+  
+  xverse.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/xverse.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\xverse.cpp(46,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\xverse.cpp(52,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  mistral3.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/mistral3.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\mistral3.cpp(68,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\mistral3.cpp(74,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  graph-context-mamba.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/graph-context-mamba.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\graph-context-mamba.cpp(35,77): warning C4244: 'argumento': conversión de 'const int64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\graph-context-mamba.cpp(172,77): warning C4244: 'argumento': conversión de 'const int64_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  Generando código...
+  llama.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\llama-adapter.h(82,30): warning C4267: 'return': conversión de 'size_t' a 'uint32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+  (compiling source file '../../../../llm/llama.cpp/src/models/llama.cpp')
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llama.cpp(70,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+      C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llama.cpp(70,21):
+      el contexto de creación de instancias de la plantilla (el más antiguo primero) es
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llama.cpp(167,39):
+          Vea la referencia a la creación de una instancia de clase plantilla "llm_build_llama<false>" que se está compilando
+          C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llama.cpp(4,101):
+          al compilar la función del miembro clase plantilla "llm_build_llama<false>::llm_build_llama(const llama_model &,const llm_graph_params &)"
+  
+C:\Users\Luis Seoanes\Desktop\arrow\llm\llama.cpp\src\models\llama.cpp(76,21): warning C4244: 'argumento': conversión de 'const int64_t' a 'int'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\src\llama.vcxproj]
+     Creando biblioteca C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/src/Release/llama.lib y objeto C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build/llama_build/src/Release/llama.exp
+  llama.vcxproj -> C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\bin\Release\llama.dll
+  Building Custom Rule C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/CMakeLists.txt
+  obsia_api.cpp
+  llm_engine.cpp
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\src\llm_engine.cpp(125,138): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\obsia.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\src\llm_engine.cpp(125,100): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\obsia.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\src\llm_engine.cpp(140,122): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\obsia.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\src\llm_engine.cpp(140,92): warning C4267: 'argumento': conversión de 'size_t' a 'int32_t'; posible pérdida de datos [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\obsia.vcxproj]
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\src\llm_engine.cpp(182,24): warning C4018: '>': no coinciden signed/unsigned [C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\obsia.vcxproj]
+  rag_engine.cpp
+  clinical_engine.cpp
+  bm25.cpp
+  Generando código...
+  obsia.vcxproj -> C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\Release\obsia.lib
+  Building Custom Rule C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/CMakeLists.txt
+  test_runner.cpp
+  test_runner.vcxproj -> C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\Release\test_runner.exe
+  Building Custom Rule C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/CMakeLists.txt

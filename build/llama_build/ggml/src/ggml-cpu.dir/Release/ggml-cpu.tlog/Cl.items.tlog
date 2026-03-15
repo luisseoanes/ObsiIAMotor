@@ -1,0 +1,15 @@
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\ggml-cpu.c;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\ggml-cpu\ggml-cpu.c.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\ggml-cpu.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\ggml-cpu\ggml-cpu.cpp.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\repack.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\ggml-cpu\repack.cpp.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\hbm.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\hbm.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\quants.c;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\ggml-cpu\quants.c.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\traits.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\traits.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\amx\amx.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\amx.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\amx\mmq.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\mmq.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\binary-ops.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\binary-ops.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\unary-ops.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\unary-ops.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\vec.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\vec.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\ops.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\ops.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\llamafile\sgemm.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\sgemm.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\arch\x86\quants.c;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\ggml-cpu\arch\x86\quants.c.obj
+C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\llama.cpp\ggml\src\ggml-cpu\arch\x86\repack.cpp;C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build\llama_build\ggml\src\ggml-cpu.dir\Release\ggml-cpu\arch\x86\repack.cpp.obj
