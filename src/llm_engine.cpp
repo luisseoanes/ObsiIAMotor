@@ -50,10 +50,10 @@ bool LLMEngine::load_model(const std::string& model_path, int n_ctx, int n_batch
     ctx_params.n_batch = n_batch;
     ctx_params.n_ubatch = std::min(n_batch, 64);
     ctx_params.n_threads = n_threads;
-    ctx_params.n_threads_batch = std::min(n_threads, 2);
+    ctx_params.n_threads_batch = std::min(n_threads, 4);
     ctx_params.flash_attn_type = LLAMA_FLASH_ATTN_TYPE_ENABLED;
-    ctx_params.type_k = GGML_TYPE_Q8_0;
-    ctx_params.type_v = GGML_TYPE_Q8_0;
+    ctx_params.type_k = GGML_TYPE_Q4_0;
+    ctx_params.type_v = GGML_TYPE_Q4_0;
 
     ctx = llama_init_from_model(model, ctx_params);
     if (!ctx) {
@@ -68,9 +68,9 @@ bool LLMEngine::load_model(const std::string& model_path, int n_ctx, int n_batch
         unload_model();
         return false;
     }
-    llama_sampler_chain_add(smpl, llama_sampler_init_penalties(256, 1.20f, 0.05f, 0.0f));
-    llama_sampler_chain_add(smpl, llama_sampler_init_min_p(0.08f, 1));
-    llama_sampler_chain_add(smpl, llama_sampler_init_temp(0.35f));
+    llama_sampler_chain_add(smpl, llama_sampler_init_penalties(256, 1.10f, 0.0f, 0.0f));
+    llama_sampler_chain_add(smpl, llama_sampler_init_min_p(0.05f, 1));
+    llama_sampler_chain_add(smpl, llama_sampler_init_temp(0.50f));
     llama_sampler_chain_add(smpl, llama_sampler_init_dist(LLAMA_DEFAULT_SEED));
 
     batch = llama_batch_init(n_batch, 0, 1);
@@ -180,7 +180,7 @@ std::string LLMEngine::generate_response(const std::string& formatted_user_promp
 
     llama_token new_token_id;
     int gen_count = 0;
-    const int MAX_GEN_TOKENS = 260;
+    const int MAX_GEN_TOKENS = 512;
     std::vector<llama_token> recent_tokens;
 
     while (true) {

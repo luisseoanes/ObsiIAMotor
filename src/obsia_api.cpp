@@ -10,6 +10,32 @@
 #include <mutex>
 #include <unordered_set>
 #include <cctype>
+#include <thread>
+#include <fstream>
+
+// Auto-detect optimal thread count: all cores minus 1 (leave 1 for OS/UI)
+static int detect_optimal_threads() {
+    int cores = 0;
+#ifdef __ANDROID__
+    // On Android, read /sys/devices/system/cpu/possible for accurate count
+    std::ifstream f("/sys/devices/system/cpu/possible");
+    if (f.is_open()) {
+        // Format is "0-N" where N+1 is the number of cores
+        std::string line;
+        std::getline(f, line);
+        auto dash = line.find('-');
+        if (dash != std::string::npos) {
+            cores = std::stoi(line.substr(dash + 1)) + 1;
+        }
+    }
+#endif
+    if (cores <= 0) {
+        cores = (int)std::thread::hardware_concurrency();
+    }
+    if (cores <= 0) cores = 4; // Safe fallback
+    int optimal = cores - 1;
+    return optimal >= 2 ? optimal : 2; // Minimum 2 threads
+}
 
 static std::unique_ptr<LLMEngine> g_llm_engine;
 static std::unique_ptr<RAGEngine> g_rag_engine;
@@ -341,9 +367,9 @@ int obsia_init(const ObsiaConfig* config) {
     g_low_quality_model = is_low_quality_model_path(config->model_path);
     g_rag_k = config->rag_k > 0 ? config->rag_k : 3;
     g_llm_engine = std::make_unique<LLMEngine>();
-    int n_ctx = config->n_ctx > 0 ? config->n_ctx : 1536;
+    int n_ctx = config->n_ctx > 0 ? config->n_ctx : 1024;
     int n_batch = config->n_batch > 0 ? config->n_batch : 128;
-    int n_threads = config->n_threads > 0 ? config->n_threads : 2;
+    int n_threads = config->n_threads > 0 ? config->n_threads : detect_optimal_threads();
 
     if (!g_llm_engine->load_model(config->model_path, n_ctx, n_batch, n_threads)) {
         g_llm_engine.reset();

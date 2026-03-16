@@ -34,7 +34,10 @@ private:
     std::vector<int> doc_lengths_;
     float avg_doc_length_;
     
+    // Pre-computed IDF values (calculated once during indexing)
+    std::unordered_map<int, float> idf_cache_;
+    
     std::vector<std::string> tokenize(const std::string& text);
     int get_term_id(const std::string& term, bool create_if_missing);
-    float compute_idf(int term_id);
+    void precompute_idf();
 };

@@ -88,13 +88,16 @@ void BM25Ranker::index_documents(const std::vector<std::string>& docs) {
     } else {
         avg_doc_length_ = 0;
     }
+    
+    precompute_idf();
 }
 
-float BM25Ranker::compute_idf(int term_id) {
+void BM25Ranker::precompute_idf() {
+    idf_cache_.clear();
     float N = (float)doc_term_freqs_.size();
-    float df = (float)(doc_freqs_.count(term_id) ? doc_freqs_[term_id] : 0);
-    
-    return std::log((N - df + 0.5f) / (df + 0.5f) + 1.0f);
+    for (const auto& [term_id, df] : doc_freqs_) {
+        idf_cache_[term_id] = std::log((N - (float)df + 0.5f) / ((float)df + 0.5f) + 1.0f);
+    }
 }
 
 std::vector<BM25Result> BM25Ranker::search(const std::string& query, int k) {
@@ -119,7 +122,8 @@ std::vector<BM25Result> BM25Ranker::search(const std::string& query, int k) {
             // Si el término no existe en el documento, skip
             if (doc_term_freqs_[doc_id].find(term_id) == doc_term_freqs_[doc_id].end()) continue;
 
-            float idf = compute_idf(term_id);
+            auto idf_it = idf_cache_.find(term_id);
+            float idf = (idf_it != idf_cache_.end()) ? idf_it->second : 0.0f;
             int tf = doc_term_freqs_[doc_id].at(term_id);
             
             float doc_len = (float)doc_lengths_[doc_id];

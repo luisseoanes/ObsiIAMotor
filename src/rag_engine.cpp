@@ -1,4 +1,4 @@
-﻿#include "rag_engine.h"
+#include "rag_engine.h"
 #include "clinical_engine.h"
 #include "text_norm.h"
 #include <algorithm>
@@ -341,7 +341,7 @@ std::string RAGEngine::get_augmented_context(const std::string& query, int k, Ob
 
     const size_t MAX_CHUNK_CHARS = 420;
     const int MAX_CHUNK_WORDS = 80;
-    const int MAX_TOTAL_WORDS = 220;
+    const int MAX_TOTAL_WORDS = 350;
 
     std::ostringstream oss;
     oss << "### GUIAS MEDICAS (Contexto):\n";

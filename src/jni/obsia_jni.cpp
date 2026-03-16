@@ -56,10 +56,10 @@ Java_com_obsIA_engine_NativeEngine_init(
     ObsiaConfig config;
     config.model_path = nativeModelPath;
     config.rag_chunks_path = nativeRagPath;
-    config.n_threads = (int)nThreads;
-    config.n_ctx = 1536;    // Default for mobile
-    config.n_batch = 128;   // Default for mobile
-    config.rag_k = 3;       // Default number of chunks
+    config.n_threads = 0;       // 0 = auto-detect (cores - 1)
+    config.n_ctx = 1024;        // Optimized for mobile RAM usage
+    config.n_batch = 128;       // Default for mobile
+    config.rag_k = 3;           // Default number of chunks
 
     int result = obsia_init(&config);
 

@@ -426,7 +426,7 @@ build cmake_object_order_depends_target_ggml-base: phony || .
 
 build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o: C_COMPILER__ggml-base_unscanned_Release C$:/Users/Luis$ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml.c || cmake_object_order_depends_target_ggml-base
   CONFIG = Release
-  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"22cae8321-dirty\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
+  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"0cd6b82\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
   DEP_FILE = llama_build\ggml\src\CMakeFiles\ggml-base.dir\ggml.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O3 -DNDEBUG  -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -pthread
   INCLUDES = -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/." -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/../include"
@@ -437,7 +437,7 @@ build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o: C_COMPILER__ggml-b
 
 build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o: CXX_COMPILER__ggml-base_unscanned_Release C$:/Users/Luis$ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml.cpp || cmake_object_order_depends_target_ggml-base
   CONFIG = Release
-  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"22cae8321-dirty\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
+  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"0cd6b82\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
   DEP_FILE = llama_build\ggml\src\CMakeFiles\ggml-base.dir\ggml.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O3 -DNDEBUG  -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread
   INCLUDES = -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/." -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/../include"
@@ -448,7 +448,7 @@ build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o: CXX_COMPILER__gg
 
 build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o: C_COMPILER__ggml-base_unscanned_Release C$:/Users/Luis$ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-alloc.c || cmake_object_order_depends_target_ggml-base
   CONFIG = Release
-  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"22cae8321-dirty\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
+  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"0cd6b82\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
   DEP_FILE = llama_build\ggml\src\CMakeFiles\ggml-base.dir\ggml-alloc.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O3 -DNDEBUG  -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -pthread
   INCLUDES = -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/." -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/../include"
@@ -459,7 +459,7 @@ build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o: C_COMPILER__
 
 build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o: CXX_COMPILER__ggml-base_unscanned_Release C$:/Users/Luis$ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-backend.cpp || cmake_object_order_depends_target_ggml-base
   CONFIG = Release
-  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"22cae8321-dirty\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
+  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"0cd6b82\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
   DEP_FILE = llama_build\ggml\src\CMakeFiles\ggml-base.dir\ggml-backend.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O3 -DNDEBUG  -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread
   INCLUDES = -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/." -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/../include"
@@ -470,7 +470,7 @@ build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o: CXX_COMP
 
 build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o: CXX_COMPILER__ggml-base_unscanned_Release C$:/Users/Luis$ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-opt.cpp || cmake_object_order_depends_target_ggml-base
   CONFIG = Release
-  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"22cae8321-dirty\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
+  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"0cd6b82\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
   DEP_FILE = llama_build\ggml\src\CMakeFiles\ggml-base.dir\ggml-opt.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O3 -DNDEBUG  -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread
   INCLUDES = -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/." -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/../include"
@@ -481,7 +481,7 @@ build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o: CXX_COMPILER
 
 build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o: CXX_COMPILER__ggml-base_unscanned_Release C$:/Users/Luis$ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-threading.cpp || cmake_object_order_depends_target_ggml-base
   CONFIG = Release
-  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"22cae8321-dirty\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
+  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"0cd6b82\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
   DEP_FILE = llama_build\ggml\src\CMakeFiles\ggml-base.dir\ggml-threading.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O3 -DNDEBUG  -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread
   INCLUDES = -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/." -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/../include"
@@ -492,7 +492,7 @@ build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o: CXX_CO
 
 build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o: C_COMPILER__ggml-base_unscanned_Release C$:/Users/Luis$ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-quants.c || cmake_object_order_depends_target_ggml-base
   CONFIG = Release
-  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"22cae8321-dirty\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
+  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"0cd6b82\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
   DEP_FILE = llama_build\ggml\src\CMakeFiles\ggml-base.dir\ggml-quants.c.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O3 -DNDEBUG  -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion -pthread
   INCLUDES = -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/." -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/../include"
@@ -503,7 +503,7 @@ build llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o: C_COMPILER_
 
 build llama_build/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o: CXX_COMPILER__ggml-base_unscanned_Release C$:/Users/Luis$ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/gguf.cpp || cmake_object_order_depends_target_ggml-base
   CONFIG = Release
-  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"22cae8321-dirty\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
+  DEFINES = -DGGML_BUILD -DGGML_COMMIT=\"0cd6b82\" -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_VERSION=\"0.9.5\" -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS
   DEP_FILE = llama_build\ggml\src\CMakeFiles\ggml-base.dir\gguf.cpp.o.d
   FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O3 -DNDEBUG  -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wmissing-prototypes -Wextra-semi -pthread
   INCLUDES = -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/." -I"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/../include"
