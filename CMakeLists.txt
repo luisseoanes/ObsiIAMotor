@@ -18,6 +18,8 @@ set(LLAMA_BUILD_SERVER OFF CACHE BOOL "" FORCE)
 if (ANDROID)
     message(STATUS "[Obsia] Compilando para Android - Habilitando Aceleracion GPU (Vulkan)")
     set(LLAMA_VULKAN ON CACHE BOOL "" FORCE)
+    # Disable OpenMP to avoid dependency on libomp.so which is not present on many devices
+    set(GGML_OPENMP OFF CACHE BOOL "" FORCE)
 endif()
 
 

@@ -320,7 +320,6 @@ bin/libggml-cpu.so: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/a
 bin/libggml-cpu.so: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/build.make
 bin/libggml-cpu.so: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/compiler_depend.ts
 bin/libggml-cpu.so: bin/libggml-base.so
-bin/libggml-cpu.so: C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64/libomp.so
 bin/libggml-cpu.so: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build_arm64\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX shared library ..\..\..\bin\libggml-cpu.so"
 	cd /d C:\Users\LUISSE~1\Desktop\arrow\MODELO~1\BUILD_~4\LLAMA_~1\ggml\src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ggml-cpu.dir\link.txt --verbose=$(VERBOSE)

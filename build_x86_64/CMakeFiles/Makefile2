@@ -198,9 +198,9 @@ llama_build/src/clean: llama_build/src/CMakeFiles/llama.dir/clean
 # Target rules for target CMakeFiles/obsia.dir
 
 # All Build rule for target.
-CMakeFiles/obsia.dir/all: llama_build/ggml/src/CMakeFiles/ggml.dir/all
-CMakeFiles/obsia.dir/all: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/all
 CMakeFiles/obsia.dir/all: llama_build/ggml/src/CMakeFiles/ggml-base.dir/all
+CMakeFiles/obsia.dir/all: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/all
+CMakeFiles/obsia.dir/all: llama_build/ggml/src/CMakeFiles/ggml.dir/all
 CMakeFiles/obsia.dir/all: llama_build/src/CMakeFiles/llama.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\obsia.dir\build.make CMakeFiles/obsia.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\obsia.dir\build.make CMakeFiles/obsia.dir/build
@@ -233,10 +233,10 @@ CMakeFiles/obsia.dir/clean:
 # Target rules for target CMakeFiles/obsia_jni.dir
 
 # All Build rule for target.
-CMakeFiles/obsia_jni.dir/all: CMakeFiles/obsia.dir/all
-CMakeFiles/obsia_jni.dir/all: llama_build/ggml/src/CMakeFiles/ggml.dir/all
-CMakeFiles/obsia_jni.dir/all: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/all
 CMakeFiles/obsia_jni.dir/all: llama_build/ggml/src/CMakeFiles/ggml-base.dir/all
+CMakeFiles/obsia_jni.dir/all: CMakeFiles/obsia.dir/all
+CMakeFiles/obsia_jni.dir/all: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/all
+CMakeFiles/obsia_jni.dir/all: llama_build/ggml/src/CMakeFiles/ggml.dir/all
 CMakeFiles/obsia_jni.dir/all: llama_build/src/CMakeFiles/llama.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\obsia_jni.dir\build.make CMakeFiles/obsia_jni.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\obsia_jni.dir\build.make CMakeFiles/obsia_jni.dir/build
@@ -269,10 +269,10 @@ CMakeFiles/obsia_jni.dir/clean:
 # Target rules for target CMakeFiles/test_runner.dir
 
 # All Build rule for target.
-CMakeFiles/test_runner.dir/all: CMakeFiles/obsia.dir/all
-CMakeFiles/test_runner.dir/all: llama_build/ggml/src/CMakeFiles/ggml.dir/all
-CMakeFiles/test_runner.dir/all: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/all
 CMakeFiles/test_runner.dir/all: llama_build/ggml/src/CMakeFiles/ggml-base.dir/all
+CMakeFiles/test_runner.dir/all: CMakeFiles/obsia.dir/all
+CMakeFiles/test_runner.dir/all: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/all
+CMakeFiles/test_runner.dir/all: llama_build/ggml/src/CMakeFiles/ggml.dir/all
 CMakeFiles/test_runner.dir/all: llama_build/src/CMakeFiles/llama.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_runner.dir\build.make CMakeFiles/test_runner.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\test_runner.dir\build.make CMakeFiles/test_runner.dir/build
@@ -337,8 +337,8 @@ llama_build/ggml/src/CMakeFiles/ggml-base.dir/clean:
 # Target rules for target llama_build/ggml/src/CMakeFiles/ggml.dir
 
 # All Build rule for target.
-llama_build/ggml/src/CMakeFiles/ggml.dir/all: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/all
 llama_build/ggml/src/CMakeFiles/ggml.dir/all: llama_build/ggml/src/CMakeFiles/ggml-base.dir/all
+llama_build/ggml/src/CMakeFiles/ggml.dir/all: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/all
 	$(MAKE) $(MAKESILENT) -f llama_build\ggml\src\CMakeFiles\ggml.dir\build.make llama_build/ggml/src/CMakeFiles/ggml.dir/depend
 	$(MAKE) $(MAKESILENT) -f llama_build\ggml\src\CMakeFiles\ggml.dir\build.make llama_build/ggml/src/CMakeFiles/ggml.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build_x86_64\CMakeFiles" --progress-num=1 "Built target ggml"
@@ -402,9 +402,9 @@ llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/clean:
 # Target rules for target llama_build/src/CMakeFiles/llama.dir
 
 # All Build rule for target.
-llama_build/src/CMakeFiles/llama.dir/all: llama_build/ggml/src/CMakeFiles/ggml.dir/all
-llama_build/src/CMakeFiles/llama.dir/all: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/all
 llama_build/src/CMakeFiles/llama.dir/all: llama_build/ggml/src/CMakeFiles/ggml-base.dir/all
+llama_build/src/CMakeFiles/llama.dir/all: llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/all
+llama_build/src/CMakeFiles/llama.dir/all: llama_build/ggml/src/CMakeFiles/ggml.dir/all
 	$(MAKE) $(MAKESILENT) -f llama_build\src\CMakeFiles\llama.dir\build.make llama_build/src/CMakeFiles/llama.dir/depend
 	$(MAKE) $(MAKESILENT) -f llama_build\src\CMakeFiles\llama.dir\build.make llama_build/src/CMakeFiles/llama.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build_x86_64\CMakeFiles" --progress-num=17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94 "Built target llama"

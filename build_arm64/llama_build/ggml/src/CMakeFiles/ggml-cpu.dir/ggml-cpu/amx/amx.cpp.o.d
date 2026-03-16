@@ -669,7 +669,6 @@ llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o: \
   C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/streambuf \
   C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1/cstdarg \
   C:/Users/Luis\ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-cpu/amx/common.h \
-  C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include/omp.h \
   C:/Users/Luis\ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-cpu/amx/mmq.h \
   C:/Users/LUISSE~1/Desktop/arrow/MODELO~1/llama.cpp/ggml/src/./ggml-backend-impl.h \
   C:/Users/LUISSE~1/Desktop/arrow/MODELO~1/llama.cpp/ggml/src/../include/ggml-cpu.h \

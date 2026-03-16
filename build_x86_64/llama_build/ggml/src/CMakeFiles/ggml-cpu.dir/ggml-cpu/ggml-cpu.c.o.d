@@ -226,7 +226,6 @@ llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o: \
   C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/bits/page_size.h \
   C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include/inttypes.h \
   C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/inttypes.h \
-  C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/include/omp.h \
   C:/Users/Luis\ Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.h \
   C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/pthread.h \
   C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/sched.h \

@@ -16,7 +16,6 @@
  CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/quants.c.o \
  CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/repack.cpp.o \
  ../../../bin/libggml-base.so \
- C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64/libomp.so \
  C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64/libatomic.a \
  C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libm.so \
  C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/24/libc++.so \
@@ -60,8 +59,6 @@ CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/quants.c.o:
 CMakeFiles/ggml-cpu.dir/ggml-cpu/arch/arm/repack.cpp.o:
 
 ../../../bin/libggml-base.so:
-
-C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64/libomp.so:
 
 C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/lib/clang/21/lib/linux/aarch64/libatomic.a:
 
