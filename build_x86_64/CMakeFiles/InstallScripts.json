@@ -1,0 +1,12 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build_x86_64/cmake_install.cmake",
+		"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build_x86_64/llama_build/cmake_install.cmake",
+		"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build_x86_64/llama_build/ggml/cmake_install.cmake",
+		"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build_x86_64/llama_build/ggml/src/cmake_install.cmake",
+		"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build_x86_64/llama_build/ggml/src/ggml-cpu/cmake_install.cmake",
+		"C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/build_x86_64/llama_build/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

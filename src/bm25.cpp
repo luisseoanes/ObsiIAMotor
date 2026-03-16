@@ -5,6 +5,7 @@
 #include <cmath>
 #include <unordered_set>
 #include <cctype>
+#include <thread>
 
 BM25Ranker::BM25Ranker(float k1, float b) : k1_(k1), b_(b), avg_doc_length_(0), next_term_id_(0) {}
 
@@ -24,7 +25,6 @@ std::vector<std::string> BM25Ranker::tokenize(const std::string& text) {
     for (size_t i = 0; i <= norm.length(); ++i) {
         char c = (i < norm.length()) ? norm[i] : ' ';
         
-        // Caracteres alfanuméricos (incluyendo UTF-8 multi-byte que son negativos)
         if (std::isalnum(static_cast<unsigned char>(c)) || static_cast<signed char>(c) < 0) {
             current += static_cast<char>(std::tolower(static_cast<unsigned char>(c)));
         } else if (!current.empty()) {
@@ -102,9 +102,7 @@ void BM25Ranker::precompute_idf() {
 
 std::vector<BM25Result> BM25Ranker::search(const std::string& query, int k) {
     auto query_tokens = tokenize(query);
-    std::vector<BM25Result> results;
     
-    // Pre-calcular IDs de query para no buscar en mapa repetidamente
     std::vector<int> query_term_ids;
     for (const auto& term : query_tokens) {
         int id = get_term_id(term, false);
@@ -113,43 +111,80 @@ std::vector<BM25Result> BM25Ranker::search(const std::string& query, int k) {
         }
     }
 
-    results.reserve(doc_term_freqs_.size());
-    
-    for (size_t doc_id = 0; doc_id < doc_term_freqs_.size(); ++doc_id) {
-        float score = 0.0f;
-        
-        for (int term_id : query_term_ids) {
-            // Si el término no existe en el documento, skip
-            if (doc_term_freqs_[doc_id].find(term_id) == doc_term_freqs_[doc_id].end()) continue;
+    const size_t n_docs = doc_term_freqs_.size();
+    if (n_docs == 0 || query_term_ids.empty()) return {};
 
-            auto idf_it = idf_cache_.find(term_id);
-            float idf = (idf_it != idf_cache_.end()) ? idf_it->second : 0.0f;
-            int tf = doc_term_freqs_[doc_id].at(term_id);
-            
-            float doc_len = (float)doc_lengths_[doc_id];
-            float norm = 1.0f;
-            if (avg_doc_length_ > 0.0f) {
-                norm = 1.0f - b_ + b_ * (doc_len / avg_doc_length_);
+    const int n_threads = std::min((int)std::thread::hardware_concurrency(), std::min(4, (int)n_docs));
+    
+    if (n_threads <= 1 || n_docs < 50) {
+        std::vector<BM25Result> results;
+        results.reserve(n_docs);
+        for (size_t doc_id = 0; doc_id < n_docs; ++doc_id) {
+            float score = 0.0f;
+            for (int term_id : query_term_ids) {
+                auto it = doc_term_freqs_[doc_id].find(term_id);
+                if (it == doc_term_freqs_[doc_id].end()) continue;
+                auto idf_it = idf_cache_.find(term_id);
+                float idf = (idf_it != idf_cache_.end()) ? idf_it->second : 0.0f;
+                int tf = it->second;
+                float doc_len = (float)doc_lengths_[doc_id];
+                float norm = 1.0f;
+                if (avg_doc_length_ > 0.0f) {
+                    norm = 1.0f - b_ + b_ * (doc_len / avg_doc_length_);
+                }
+                score += idf * (tf * (k1_ + 1.0f)) / (tf + k1_ * norm);
             }
-            
-            score += idf * (tf * (k1_ + 1.0f)) / (tf + k1_ * norm);
+            if (score > 0.0f) {
+                results.push_back({static_cast<int>(doc_id), score});
+            }
         }
-        
-        if (score > 0.0f) {
-            results.push_back({static_cast<int>(doc_id), score});
+        std::sort(results.begin(), results.end(), 
+            [](const BM25Result& a, const BM25Result& b) { return a.score > b.score; });
+        if ((int)results.size() > k) results.resize(k);
+        return results;
+    }
+
+    std::vector<std::vector<BM25Result>> thread_results(n_threads);
+    std::vector<std::thread> threads;
+
+    auto score_range = [&](int thread_id, size_t start, size_t end) {
+        auto& local_results = thread_results[thread_id];
+        for (size_t doc_id = start; doc_id < end; ++doc_id) {
+            float score = 0.0f;
+            for (int term_id : query_term_ids) {
+                auto it = doc_term_freqs_[doc_id].find(term_id);
+                if (it == doc_term_freqs_[doc_id].end()) continue;
+                auto idf_it = idf_cache_.find(term_id);
+                float idf = (idf_it != idf_cache_.end()) ? idf_it->second : 0.0f;
+                int tf = it->second;
+                float doc_len = (float)doc_lengths_[doc_id];
+                float norm = 1.0f;
+                if (avg_doc_length_ > 0.0f) {
+                    norm = 1.0f - b_ + b_ * (doc_len / avg_doc_length_);
+                }
+                score += idf * (tf * (k1_ + 1.0f)) / (tf + k1_ * norm);
+            }
+            if (score > 0.0f) {
+                local_results.push_back({static_cast<int>(doc_id), score});
+            }
         }
+    };
+
+    size_t chunk_size = n_docs / n_threads;
+    for (int t = 0; t < n_threads; t++) {
+        size_t start = t * chunk_size;
+        size_t end = (t == n_threads - 1) ? n_docs : start + chunk_size;
+        threads.emplace_back(score_range, t, start, end);
     }
-    
-    // Ordenar por score descendente
-    std::sort(results.begin(), results.end(), 
-        [](const BM25Result& a, const BM25Result& b) {
-            return a.score > b.score;
-        });
-    
-    // Retornar top-k
-    if ((int)results.size() > k) {
-        results.resize(k);
+    for (auto& th : threads) th.join();
+
+    std::vector<BM25Result> results;
+    for (auto& tr : thread_results) {
+        results.insert(results.end(), tr.begin(), tr.end());
     }
-    
+
+    std::sort(results.begin(), results.end(),
+        [](const BM25Result& a, const BM25Result& b) { return a.score > b.score; });
+    if ((int)results.size() > k) results.resize(k);
     return results;
 }

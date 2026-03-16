@@ -1,7 +1,6 @@
 #include "llm_engine.h"
 #include <cstdio>
 #include <algorithm>
-#include <iostream>
 
 LLMEngine::LLMEngine() {}
 
@@ -153,10 +152,21 @@ bool LLMEngine::set_system_prompt(const std::string& formatted_system_prompt) {
     return false;
 }
 
+// Blocking version (calls internal with no callback)
 std::string LLMEngine::generate_response(const std::string& formatted_user_prompt) {
+    return generate_internal(formatted_user_prompt, nullptr);
+}
+
+// Streaming version (calls internal with callback)
+std::string LLMEngine::generate_response_streaming(const std::string& formatted_user_prompt, TokenCallback callback) {
+    return generate_internal(formatted_user_prompt, &callback);
+}
+
+// Shared generation logic: if callback is non-null, streams each token piece
+std::string LLMEngine::generate_internal(const std::string& formatted_user_prompt, TokenCallback* callback) {
     if (!ctx || !vocab) return "";
     if (!smpl) return "";
-    if (smpl) llama_sampler_reset(smpl);
+    llama_sampler_reset(smpl);
     if (system_tokens_len_ == 0) {
         reset_context();
     }
@@ -167,10 +177,8 @@ std::string LLMEngine::generate_response(const std::string& formatted_user_promp
     tokens.resize(n);
 
     if (!run_inference(tokens, false)) return "";
-    if (smpl) {
-        for (const auto& t : tokens) {
-            llama_sampler_accept(smpl, t);
-        }
+    for (const auto& t : tokens) {
+        llama_sampler_accept(smpl, t);
     }
 
     std::string response;
@@ -186,7 +194,7 @@ std::string LLMEngine::generate_response(const std::string& formatted_user_promp
     while (true) {
         new_token_id = llama_sampler_sample(smpl, ctx, -1);
         if (llama_vocab_is_eog(vocab, new_token_id)) break;
-        if (smpl) llama_sampler_accept(smpl, new_token_id);
+        llama_sampler_accept(smpl, new_token_id);
 
         gen_count++;
         if (gen_count >= MAX_GEN_TOKENS) break;
@@ -208,7 +216,15 @@ std::string LLMEngine::generate_response(const std::string& formatted_user_promp
         char buf[256];
         int n_len = llama_token_to_piece(vocab, new_token_id, buf, sizeof(buf), 0, true);
         if (n_len < 0) break;
-        response += std::string(buf, (size_t)n_len);
+        std::string piece(buf, (size_t)n_len);
+        response += piece;
+
+        // Stream token to callback if provided
+        if (callback && !piece.empty()) {
+            if (!(*callback)(piece)) {
+                break; // Callback returned false = user cancelled
+            }
+        }
 
         if (n_past + 1 > llama_n_ctx(ctx)) {
             ensure_kv_space(10, system_tokens_len_);

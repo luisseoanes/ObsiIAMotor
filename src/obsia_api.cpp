@@ -13,14 +13,14 @@
 #include <thread>
 #include <fstream>
 
-// Auto-detect optimal thread count: all cores minus 1 (leave 1 for OS/UI)
+// Auto-detect optimal thread count with big.LITTLE awareness
 static int detect_optimal_threads() {
     int cores = 0;
+    int big_cores = 0;
 #ifdef __ANDROID__
-    // On Android, read /sys/devices/system/cpu/possible for accurate count
+    // Read total core count
     std::ifstream f("/sys/devices/system/cpu/possible");
     if (f.is_open()) {
-        // Format is "0-N" where N+1 is the number of cores
         std::string line;
         std::getline(f, line);
         auto dash = line.find('-');
@@ -28,12 +28,38 @@ static int detect_optimal_threads() {
             cores = std::stoi(line.substr(dash + 1)) + 1;
         }
     }
+    // Detect big cores by reading max frequency of each CPU
+    if (cores > 0) {
+        std::vector<long> freqs;
+        for (int i = 0; i < cores; i++) {
+            std::string path = "/sys/devices/system/cpu/cpu" + std::to_string(i) + "/cpufreq/cpuinfo_max_freq";
+            std::ifstream cf(path);
+            long freq = 0;
+            if (cf.is_open()) cf >> freq;
+            freqs.push_back(freq);
+        }
+        if (!freqs.empty()) {
+            long max_freq = *std::max_element(freqs.begin(), freqs.end());
+            // Consider a core "big" if its max freq is >= 80% of the highest
+            long threshold = (long)(max_freq * 0.8);
+            for (long fr : freqs) {
+                if (fr >= threshold) big_cores++;
+            }
+        }
+    }
 #endif
     if (cores <= 0) {
         cores = (int)std::thread::hardware_concurrency();
     }
     if (cores <= 0) cores = 4; // Safe fallback
-    int optimal = cores - 1;
+    
+    // Use big cores if detected, otherwise all cores - 1
+    int optimal;
+    if (big_cores >= 2 && big_cores < cores) {
+        optimal = big_cores; // Use all big cores (LITTLE ones stay free for OS)
+    } else {
+        optimal = cores - 1;
+    }
     return optimal >= 2 ? optimal : 2; // Minimum 2 threads
 }
 
@@ -43,6 +69,7 @@ static ClinicalEngine g_clinical_engine;
 static std::mutex g_mutex;
 static int g_rag_k = 3;
 static bool g_low_quality_model = false;
+static bool g_system_prompt_cached = false;
 
 // Keep thread local or static for the C API return
 static std::string g_last_response;
@@ -353,9 +380,9 @@ static void obsia_free_unlocked() {
     g_rag_engine.reset();
     g_llm_engine.reset();
     g_low_quality_model = false;
+    g_system_prompt_cached = false;
     g_last_response.clear();
-}
-
+}
 extern "C" {
 
 int obsia_init(const ObsiaConfig* config) {
@@ -385,6 +412,23 @@ int obsia_init(const ObsiaConfig* config) {
         }
     }
 
+    // Cache system prompt in KV-cache once at init time
+    const char* tmpl = llama_model_chat_template(g_llm_engine->get_model(), nullptr);
+    if (tmpl) {
+        std::vector<llama_chat_message> sys_msgs;
+        sys_msgs.push_back({"system", SYSTEM_PROMPT});
+        std::vector<char> sys_buf(2048);
+        int sys_len = llama_chat_apply_template(tmpl, sys_msgs.data(), 1, false, sys_buf.data(), (int)sys_buf.size());
+        if (sys_len > (int)sys_buf.size()) {
+            sys_buf.resize(sys_len);
+            sys_len = llama_chat_apply_template(tmpl, sys_msgs.data(), 1, false, sys_buf.data(), (int)sys_buf.size());
+        }
+        if (sys_len > 0) {
+            std::string sys_formatted(sys_buf.begin(), sys_buf.begin() + sys_len);
+            g_system_prompt_cached = g_llm_engine->set_system_prompt(sys_formatted);
+        }
+    }
+
     return 0;
 }
 
@@ -399,6 +443,10 @@ int obsia_is_ready() {
 }
 
 const char* obsia_chat(const char* user_message) {
+    return obsia_chat_streaming(user_message, nullptr, nullptr);
+}
+
+const char* obsia_chat_streaming(const char* user_message, obsia_token_callback callback, void* user_data) {
     std::lock_guard<std::mutex> lock(g_mutex);
     if (!g_llm_engine || !user_message) return "Error: Engine no inicializado.";
 
@@ -454,7 +502,10 @@ const char* obsia_chat(const char* user_message) {
     }
 
     std::vector<llama_chat_message> msg_ptrs;
-    msg_ptrs.push_back({"system", SYSTEM_PROMPT});
+    // If system prompt is cached in KV, only send user message
+    if (!g_system_prompt_cached) {
+        msg_ptrs.push_back({"system", SYSTEM_PROMPT});
+    }
     msg_ptrs.push_back({"user", final_user_msg.c_str()});
     
     std::vector<char> formatted(llama_n_ctx(g_llm_engine->get_context()));
@@ -470,7 +521,17 @@ const char* obsia_chat(const char* user_message) {
 
     std::string final_formatted_prompt(formatted.begin(), formatted.begin() + new_len);
 
-    std::string model_reply = g_llm_engine->generate_response(final_formatted_prompt);
+    std::string model_reply;
+    if (callback) {
+        model_reply = g_llm_engine->generate_response_streaming(
+            final_formatted_prompt,
+            [callback, user_data](const std::string& token_text) -> bool {
+                return callback(token_text.c_str(), user_data) == 0;
+            }
+        );
+    } else {
+        model_reply = g_llm_engine->generate_response(final_formatted_prompt);
+    }
     bool ok = validate_response(model_reply, plan, rag_context);
     if (ok && (contains_context_dump(model_reply) || is_gibberish(model_reply))) {
         ok = false;

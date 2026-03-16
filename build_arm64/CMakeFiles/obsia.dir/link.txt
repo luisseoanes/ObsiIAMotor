@@ -1,0 +1,2 @@
+C:\android\sdk\ndk\29.0.14206865\toolchains\llvm\prebuilt\windows-x86_64\bin\llvm-ar.exe qc libobsia.a CMakeFiles/obsia.dir/src/obsia_api.cpp.o CMakeFiles/obsia.dir/src/llm_engine.cpp.o CMakeFiles/obsia.dir/src/rag_engine.cpp.o CMakeFiles/obsia.dir/src/clinical_engine.cpp.o CMakeFiles/obsia.dir/src/bm25.cpp.o
+C:\android\sdk\ndk\29.0.14206865\toolchains\llvm\prebuilt\windows-x86_64\bin\llvm-ranlib.exe libobsia.a
