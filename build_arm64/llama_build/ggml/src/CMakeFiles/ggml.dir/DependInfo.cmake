@@ -10,7 +10,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-backend-dl.cpp" "llama_build/ggml/src/CMakeFiles/ggml.dir/ggml-backend-dl.cpp.o" "gcc" "llama_build/ggml/src/CMakeFiles/ggml.dir/ggml-backend-dl.cpp.o.d"
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-backend-reg.cpp" "llama_build/ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o" "gcc" "llama_build/ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o.d"
-  "" "bin/libggml.so" "gcc" "llama_build/ggml/src/CMakeFiles/ggml.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

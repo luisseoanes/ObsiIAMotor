@@ -21,10 +21,10 @@ ANDROID_ABI:UNINITIALIZED=arm64-v8a
 ANDROID_PLATFORM:UNINITIALIZED=android-24
 
 //No help, variable specified on the command line.
-ANDROID_STL:UNINITIALIZED=c++_shared
+ANDROID_STL:UNINITIALIZED=c++_static
 
 //ggml: build shared libraries
-BUILD_SHARED_LIBS:BOOL=ON
+BUILD_SHARED_LIBS:BOOL=OFF
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/llvm-addr2line.exe
@@ -563,7 +563,7 @@ GGML_SCHED_NO_REALLOC:BOOL=OFF
 GGML_SSE42:BOOL=OFF
 
 //ggml: static link libraries
-GGML_STATIC:BOOL=OFF
+GGML_STATIC:BOOL=ON
 
 //ggml: use SYCL
 GGML_SYCL:BOOL=OFF
@@ -677,7 +677,7 @@ LLAMA_CURL:BOOL=OFF
 LLAMA_FATAL_WARNINGS:BOOL=OFF
 
 //llama: httplib for downloading functionality
-LLAMA_HTTPLIB:BOOL=ON
+LLAMA_HTTPLIB:BOOL=OFF
 
 //Location of header  files
 LLAMA_INCLUDE_INSTALL_DIR:PATH=include
@@ -690,7 +690,7 @@ LLAMA_LIB_INSTALL_DIR:PATH=lib
 LLAMA_LLGUIDANCE:BOOL=OFF
 
 //llama: use openssl to support HTTPS
-LLAMA_OPENSSL:BOOL=ON
+LLAMA_OPENSSL:BOOL=OFF
 
 //llama: enable address sanitizer
 LLAMA_SANITIZE_ADDRESS:BOOL=OFF
@@ -700,6 +700,8 @@ LLAMA_SANITIZE_THREAD:BOOL=OFF
 
 //llama: enable undefined sanitizer
 LLAMA_SANITIZE_UNDEFINED:BOOL=OFF
+
+LLAMA_STATIC:BOOL=ON
 
 //llama: install tools
 LLAMA_TOOLS_INSTALL:BOOL=OFF

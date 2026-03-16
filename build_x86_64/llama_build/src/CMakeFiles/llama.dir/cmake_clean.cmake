@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "../../bin/libllama.pdb"
-  "../../bin/libllama.so"
-  "../../bin/libllama.so.manifest"
-  "CMakeFiles/llama.dir/link.d"
   "CMakeFiles/llama.dir/llama-adapter.cpp.o"
   "CMakeFiles/llama.dir/llama-adapter.cpp.o.d"
   "CMakeFiles/llama.dir/llama-arch.cpp.o"
@@ -265,6 +261,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/llama.dir/unicode-data.cpp.o.d"
   "CMakeFiles/llama.dir/unicode.cpp.o"
   "CMakeFiles/llama.dir/unicode.cpp.o.d"
+  "libllama.a"
+  "libllama.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

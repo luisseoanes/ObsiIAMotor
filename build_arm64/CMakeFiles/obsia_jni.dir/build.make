@@ -96,10 +96,10 @@ libobsia_jni.so: CMakeFiles/obsia_jni.dir/src/jni/obsia_jni.cpp.o
 libobsia_jni.so: CMakeFiles/obsia_jni.dir/build.make
 libobsia_jni.so: CMakeFiles/obsia_jni.dir/compiler_depend.ts
 libobsia_jni.so: libobsia.a
-libobsia_jni.so: bin/libllama.so
-libobsia_jni.so: bin/libggml.so
-libobsia_jni.so: bin/libggml-cpu.so
-libobsia_jni.so: bin/libggml-base.so
+libobsia_jni.so: llama_build/src/libllama.a
+libobsia_jni.so: llama_build/ggml/src/libggml.a
+libobsia_jni.so: llama_build/ggml/src/libggml-cpu.a
+libobsia_jni.so: llama_build/ggml/src/libggml-base.a
 libobsia_jni.so: CMakeFiles/obsia_jni.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build_arm64\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library libobsia_jni.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\obsia_jni.dir\link.txt --verbose=$(VERBOSE)

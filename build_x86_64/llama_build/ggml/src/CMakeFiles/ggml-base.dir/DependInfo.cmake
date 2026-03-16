@@ -16,7 +16,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-threading.cpp" "llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o" "gcc" "llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o.d"
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml.cpp" "llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o" "gcc" "llama_build/ggml/src/CMakeFiles/ggml-base.dir/ggml.cpp.o.d"
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/gguf.cpp" "llama_build/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o" "gcc" "llama_build/ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o.d"
-  "" "bin/libggml-base.so" "gcc" "llama_build/ggml/src/CMakeFiles/ggml-base.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

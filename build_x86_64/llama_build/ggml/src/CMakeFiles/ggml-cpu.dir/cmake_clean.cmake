@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "../../../bin/libggml-cpu.pdb"
-  "../../../bin/libggml-cpu.so"
-  "../../../bin/libggml-cpu.so.manifest"
-  "CMakeFiles/ggml-cpu.dir/link.d"
   "CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
   "CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o.d"
   "CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
@@ -33,6 +29,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o.d"
   "CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o"
   "CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o.d"
+  "libggml-cpu.a"
+  "libggml-cpu.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -139,7 +139,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/src/models/xverse.cpp" "llama_build/src/CMakeFiles/llama.dir/models/xverse.cpp.o" "gcc" "llama_build/src/CMakeFiles/llama.dir/models/xverse.cpp.o.d"
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/src/unicode-data.cpp" "llama_build/src/CMakeFiles/llama.dir/unicode-data.cpp.o" "gcc" "llama_build/src/CMakeFiles/llama.dir/unicode-data.cpp.o.d"
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/src/unicode.cpp" "llama_build/src/CMakeFiles/llama.dir/unicode.cpp.o" "gcc" "llama_build/src/CMakeFiles/llama.dir/unicode.cpp.o.d"
-  "" "bin/libllama.so" "gcc" "llama_build/src/CMakeFiles/llama.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,12 +1,10 @@
 file(REMOVE_RECURSE
-  "../../../bin/libggml.pdb"
-  "../../../bin/libggml.so"
-  "../../../bin/libggml.so.manifest"
-  "CMakeFiles/ggml.dir/link.d"
   "CMakeFiles/ggml.dir/ggml-backend-dl.cpp.o"
   "CMakeFiles/ggml.dir/ggml-backend-dl.cpp.o.d"
   "CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o"
   "CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o.d"
+  "libggml.a"
+  "libggml.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

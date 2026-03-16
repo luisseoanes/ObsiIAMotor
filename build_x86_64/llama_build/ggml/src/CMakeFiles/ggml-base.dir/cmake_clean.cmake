@@ -1,8 +1,4 @@
 file(REMOVE_RECURSE
-  "../../../bin/libggml-base.pdb"
-  "../../../bin/libggml-base.so"
-  "../../../bin/libggml-base.so.manifest"
-  "CMakeFiles/ggml-base.dir/link.d"
   "CMakeFiles/ggml-base.dir/ggml-alloc.c.o"
   "CMakeFiles/ggml-base.dir/ggml-alloc.c.o.d"
   "CMakeFiles/ggml-base.dir/ggml-backend.cpp.o"
@@ -19,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/ggml-base.dir/ggml.cpp.o.d"
   "CMakeFiles/ggml-base.dir/gguf.cpp.o"
   "CMakeFiles/ggml-base.dir/gguf.cpp.o.d"
+  "libggml-base.a"
+  "libggml-base.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

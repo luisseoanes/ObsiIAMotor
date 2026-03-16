@@ -23,7 +23,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-cpu/traits.cpp" "llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o" "gcc" "llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/traits.cpp.o.d"
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-cpu/unary-ops.cpp" "llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o" "gcc" "llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/unary-ops.cpp.o.d"
   "C:/Users/Luis Seoanes/Desktop/arrow/modeloFinal/llama.cpp/ggml/src/ggml-cpu/vec.cpp" "llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o" "gcc" "llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/vec.cpp.o.d"
-  "" "bin/libggml-cpu.so" "gcc" "llama_build/ggml/src/CMakeFiles/ggml-cpu.dir/link.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

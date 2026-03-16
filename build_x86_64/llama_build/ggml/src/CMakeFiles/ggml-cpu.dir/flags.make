@@ -3,13 +3,13 @@
 
 # compile C with C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe
 # compile CXX with C:/android/sdk/ndk/29.0.14206865/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe
-C_DEFINES = -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS
+C_DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_GNU_SOURCE -D_XOPEN_SOURCE=600
 
 C_INCLUDES = -IC:\Users\LUISSE~1\Desktop\arrow\MODELO~1\llama.cpp\ggml\src\.. -IC:\Users\LUISSE~1\Desktop\arrow\MODELO~1\llama.cpp\ggml\src\. -IC:\Users\LUISSE~1\Desktop\arrow\MODELO~1\llama.cpp\ggml\src\ggml-cpu -IC:\Users\LUISSE~1\Desktop\arrow\MODELO~1\llama.cpp\ggml\src\..\include
 
 C_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O3 -DNDEBUG  -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wunreachable-code-break -Wunreachable-code-return -Wdouble-promotion
 
-CXX_DEFINES = -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS
+CXX_DEFINES = -DGGML_SCHED_MAX_COPIES=4 -DGGML_USE_CPU_REPACK -DGGML_USE_LLAMAFILE -D_GNU_SOURCE -D_XOPEN_SOURCE=600
 
 CXX_INCLUDES = -IC:\Users\LUISSE~1\Desktop\arrow\MODELO~1\llama.cpp\ggml\src\.. -IC:\Users\LUISSE~1\Desktop\arrow\MODELO~1\llama.cpp\ggml\src\. -IC:\Users\LUISSE~1\Desktop\arrow\MODELO~1\llama.cpp\ggml\src\ggml-cpu -IC:\Users\LUISSE~1\Desktop\arrow\MODELO~1\llama.cpp\ggml\src\..\include
 

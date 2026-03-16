@@ -17,9 +17,18 @@ set(LLAMA_BUILD_SERVER OFF CACHE BOOL "" FORCE)
 # --- Mobile Optimizations (Android NDK / GPU) ---
 if (ANDROID)
     message(STATUS "[Obsia] Compilando para Android - Habilitando Aceleracion GPU (Vulkan)")
+    
+    # Force everything to be static to avoid "library not found" errors
+    set(BUILD_SHARED_LIBS OFF CACHE BOOL "" FORCE)
+    set(LLAMA_STATIC ON CACHE BOOL "" FORCE)
+    set(GGML_STATIC ON CACHE BOOL "" FORCE)
+    
+    # Disable features that pull unnecessary system dependencies
     set(LLAMA_VULKAN ON CACHE BOOL "" FORCE)
-    # Disable OpenMP to avoid dependency on libomp.so which is not present on many devices
     set(GGML_OPENMP OFF CACHE BOOL "" FORCE)
+    set(LLAMA_HTTPLIB OFF CACHE BOOL "" FORCE)
+    set(LLAMA_OPENSSL OFF CACHE BOOL "" FORCE)
+    set(LLAMA_CURL OFF CACHE BOOL "" FORCE)
 endif()
 
 

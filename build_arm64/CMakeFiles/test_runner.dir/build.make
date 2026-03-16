@@ -96,10 +96,10 @@ test_runner: CMakeFiles/test_runner.dir/src/test_runner.cpp.o
 test_runner: CMakeFiles/test_runner.dir/build.make
 test_runner: CMakeFiles/test_runner.dir/compiler_depend.ts
 test_runner: libobsia.a
-test_runner: bin/libllama.so
-test_runner: bin/libggml.so
-test_runner: bin/libggml-cpu.so
-test_runner: bin/libggml-base.so
+test_runner: llama_build/src/libllama.a
+test_runner: llama_build/ggml/src/libggml.a
+test_runner: llama_build/ggml/src/libggml-cpu.a
+test_runner: llama_build/ggml/src/libggml-base.a
 test_runner: CMakeFiles/test_runner.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\Luis Seoanes\Desktop\arrow\modeloFinal\build_arm64\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable test_runner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test_runner.dir\link.txt --verbose=$(VERBOSE)
